@@ -34,7 +34,9 @@ $ node index.js
 ## Demo
 
 Use the app to view, add, remove employees, roles and departments:
-![](assets/demo_gif_1.gif) ![](assets/demo_gif_2.gif)
+
+![](assets/demo_gif_1.gif)
+![](assets/demo_gif_2.gif)
 
 ---
 ## Usage

@@ -1,0 +1,28 @@
+{
+  "name": "HW12_Employee_Tracker_CLI",
+  "version": "1.0.0",
+  "description": "Full front app for keeping track of your staff. Bootcamp homework #12.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmjohnspor/HW12_Employee_Tracker_CLI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dmjohnspor/HW12_Employee_Tracker_CLI/issues"
+  },
+  "homepage": "https://github.com/dmjohnspor/HW12_Employee_Tracker_CLI#readme",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "inquirer": "^7.1.0",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0"
+  }
+}

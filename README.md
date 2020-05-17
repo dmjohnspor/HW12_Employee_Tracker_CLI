@@ -3,8 +3,8 @@
 > Simple solution to keep track of employees, departments, roles and salaries of your company.
 
 ![GitHub stars](https://img.shields.io/github/stars/dmjohnspor/HW12_Employee_Tracker_CLI?style=social)
-![GitHub contributors](https://img.shields.io/github/contributors/dmjohnspor/HW12_Employee_Tracker_CLI
-![GitHub repo size](https://img.shields.io/github/repo-size/dmjohnspor/HW12_Employee_Tracker_CLI
+![GitHub contributors](https://img.shields.io/github/contributors/dmjohnspor/HW12_Employee_Tracker_CLI)
+![GitHub repo size](https://img.shields.io/github/repo-size/dmjohnspor/HW12_Employee_Tracker_CLI)
 ![Star Wars](https://img.shields.io/badge/may%20the%20force-be%20with%20you-blue)
 
 ## Table of Contents

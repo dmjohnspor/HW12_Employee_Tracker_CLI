@@ -33,16 +33,8 @@ $ node index.js
 ---
 ## Demo
 
-Here is a brief demo of the app:
-1. Open your terminal and type "npm run test" (optional):
-![](assets/demo_gif_1.gif)
-
-2. Answer the prompts:
-![](assets/demo_gif_2.gif)
-
-3. Enjoy your new dream team page!
-![](assets/demo_3.png)
-
+Use the app to view, add, remove employees, roles and departments:
+![](assets/demo_gif_1.gif) ![](assets/demo_gif_2.gif)
 
 ---
 ## Usage

@@ -34,14 +34,22 @@ connection.connect(function (err) {
     console.log("connected as id " + connection.threadId);
 
     // Beautiful intro screen with ASCII text art
-    figlet("Employee Tracker", function (err, data) {
+    figlet("Employee", function (err, data) {
         if (err) {
             console.log('Something went wrong...');
             console.dir(err);
             return;
         }
         console.log(chalk.greenBright(data));
-        start();
+        figlet("Tracker", function (err, data) {
+            if (err) {
+                console.log('Something went wrong...');
+                console.dir(err);
+                return;
+            }
+            console.log(chalk.greenBright(data));
+            start();
+        });
     });
 });
 

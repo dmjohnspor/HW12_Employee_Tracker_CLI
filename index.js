@@ -4,6 +4,8 @@ require('dotenv').config();
 const mysql = require("mysql");
 const inquirer = require("inquirer");
 const cTable = require("console.table");
+const figlet = require("figlet");
+const chalk = require('chalk');
 
 const initialQs = require("./lib/Initial/initialQs");
 
@@ -30,7 +32,17 @@ const connection = mysql.createConnection({
 connection.connect(function (err) {
     if (err) throw err;
     console.log("connected as id " + connection.threadId);
-    start();
+
+    // Beautiful intro screen with ASCII text art
+    figlet("Employee Tracker", function (err, data) {
+        if (err) {
+            console.log('Something went wrong...');
+            console.dir(err);
+            return;
+        }
+        console.log(chalk.greenBright(data));
+        start();
+    });
 });
 
 // General functions:
